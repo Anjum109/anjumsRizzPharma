@@ -1,0 +1,47 @@
+.body-cover {
+  background-image: url('./assets/background/background-image.png');
+  background-size: cover;
+
+}
+
+.impact-font {
+  font-family: Impact, sans-serif;
+}
+
+.find-my-treatment-button {
+  position: relative;
+}
+
+.find-my-treatment-button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 2px;
+  border: 1px solid transparent;
+
+  background: linear-gradient(95.12deg, #DB5095 7.77%, #1945E8 95.93%);
+
+  mask:
+
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+
+}
+
+@font-face {
+  font-family: 'Neue Montreal';
+  src: url('./assets/neue-montreal-free-demo-pangram-pangram-030418/NeueMontreal-Regular.otf') format('opentype');
+}
+
+.category_h1 {
+  background: -webkit-linear-gradient(180deg, #C1842D 0%, #ECC974 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product_card_button {
+  background: linear-gradient(268.79deg, #A75356 1.04%, #D78C6C 98.57%);
+
+}
