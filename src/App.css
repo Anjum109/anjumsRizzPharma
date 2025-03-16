@@ -56,3 +56,40 @@
   background: linear-gradient(180deg, #C1842D 0%, #ECC974 100%);
 
 }
+
+/* category card  */
+.category_card_one {
+  background: url('./assets/category_images/category_vector/1.png'), linear-gradient(120.29deg, #F27070 0%, #97B5FB 82%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.category_card_two {
+  background: url('./assets/category_images/category_vector/2.png'), linear-gradient(180deg, #F29B70 0%, #FBD197 100%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.category_card_three {
+  background: url('./assets/category_images/category_vector/3.png'), linear-gradient(120.29deg, #97B5FB 0%, #F27070 83.5%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.category_card_four {
+  background: url('./assets/category_images/category_vector/4.png'), linear-gradient(180deg, #AD70F2 0%, #9D37A2 100%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.category_card_five {
+  background: url('./assets/category_images/category_vector/5.png'), linear-gradient(120.29deg, #F27070 0%, #97B5FB 82%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.category_card_six {
+  background: url('./assets/category_images/category_vector/6.png'), linear-gradient(180deg, #70CBF2 0%, #97B0FB 100%);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
