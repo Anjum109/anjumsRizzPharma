@@ -45,3 +45,14 @@
   background: linear-gradient(268.79deg, #A75356 1.04%, #D78C6C 98.57%);
 
 }
+
+.product_name {
+  background: -webkit-linear-gradient(180deg, #C1842D 0%, #ECC974 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.product_card_icon_bg {
+  background: linear-gradient(180deg, #C1842D 0%, #ECC974 100%);
+
+}
