@@ -10,17 +10,17 @@ import Reviews from '../Reviews/Reviews'
 
 export default function Home() {
     return (
-        <div >
+        <div className=''>
 
             <Layout>
-                <div className='px-[135px] py-[30px]'>
+                <div className='px-5 lg:px-[135px] py-[30px]'>
                     <Banner />
                     <SearchBox />
                     <Category />
                 </div>
 
                 <InfoBar />
-                <div className='px-[135px] py-[30px]'>
+                <div className='px-5 lg:px-[135px] py-[30px]'>
                     <Product />
                 </div>
                 <VirtualPortion />

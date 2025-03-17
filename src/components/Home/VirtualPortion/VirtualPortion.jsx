@@ -4,7 +4,7 @@ import arrow from '../../../assets/icons/arrow.png'
 export default function VirtualPortion() {
     return (
         <div className='mt-20 '>
-            <div className='flex justify-between px-[135px] py-[89px] absolute w-full'>
+            <div className='flex justify-between px-[135px] py-[29px] absolute w-full'>
                 <div className='text-white text-[58px] impact-font'>
                     <p>100% Online,
                     </p>

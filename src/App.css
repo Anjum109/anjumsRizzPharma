@@ -21,13 +21,10 @@
   border: 1px solid transparent;
 
   background: linear-gradient(95.12deg, #DB5095 7.77%, #1945E8 95.93%);
-
   mask:
-
     linear-gradient(#000 0 0) content-box,
     linear-gradient(#000 0 0);
   mask-composite: exclude;
-
 }
 
 @font-face {
@@ -100,3 +97,29 @@
   background-repeat: no-repeat;
   background-size: cover;
 } */
+
+.slider_blur {
+  backdrop-filter: blur(61.938209533691406px)
+}
+
+.footer {
+  background: linear-gradient(180deg, rgba(42, 58, 139, 0.737) 0%, rgba(31, 31, 31, 0.1) 100%), #1C1C1C;
+}
+
+.footer_border {
+  position: relative;
+}
+
+.footer_border::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 1px;
+  border: 2px solid transparent;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(82, 86, 108, 0.7) 100%);
+  mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  mask-composite: exclude;
+}

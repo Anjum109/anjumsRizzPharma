@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 function App() {
 
   return (
-    <div className='body-cover '>
+    <div className=' pb-16'>
       <Home />
     </div>
   )
