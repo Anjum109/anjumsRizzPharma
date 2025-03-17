@@ -91,12 +91,7 @@
   background-position: right bottom;
 }
 
-/* .virtual_portion_bg {
-  background: url('./assets/background/freepik__expand-the-image-to-3000px__9476\ 1\ 1.png');
-  height: 812px;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+
 
 .slider_blur {
   backdrop-filter: blur(61.938209533691406px)
