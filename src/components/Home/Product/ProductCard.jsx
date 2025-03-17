@@ -12,7 +12,7 @@ export default function ProductCard() {
     }, []);
 
     return (
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 mt-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 mt-12">
             {products.map((product, index) => {
                 let categoryLabel = "";
                 let categoryBgColor = "bg-[#31418C]"; // 

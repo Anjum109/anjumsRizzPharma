@@ -7,8 +7,8 @@ import image5 from '../../../assets/category_images/athlatic.png'
 import image6 from '../../../assets/category_images/beauty.png'
 export default function CategoryCard() {
     return (
-        <div className='mt-12 grid-cols-1 lg:grid-cols-3 grid gap-5' style={{ fontFamily: 'Neue Montreal' }}>
-            <div className='mt-12 lg:mt-0  h-[450px] rounded-[24px] category_card_one'>
+        <div className='mt-12 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid gap-5' style={{ fontFamily: 'Neue Montreal' }}>
+            <div className='mt-12 md:mt-0 lg:mt-0  h-[450px]  rounded-[24px] category_card_one'>
                 <div className="absolute z-10 text-white  p-[24px]">
                     <h1 className="text-white text-2xl font-bold text-[36px]" >Weight <br />
                         Loss</h1>
@@ -27,7 +27,7 @@ export default function CategoryCard() {
                     <img src={image2} alt='' className='rounded-tr-[24px] rounded-br-[24px]' />
                 </div>
             </div>
-            <div className=' h-[450px] rounded-[24px] category_card_three'>
+            <div className=' h-[450px]  rounded-[24px] category_card_three'>
                 <div className="absolute z-10 text-white  p-[24px]">
                     <h1 className="text-white text-2xl font-bold text-[36px]" >Brain
                         <br />
@@ -47,7 +47,7 @@ export default function CategoryCard() {
                     <img src={image4} alt='' className='rounded-tr-[24px] rounded-br-[24px]' />
                 </div>
             </div>
-            <div className=' h-[450px] rounded-[24px] category_card_five lg:mt-[-73px]'>
+            <div className=' h-[450px]  rounded-[24px] category_card_five lg:mt-[-73px]'>
                 <div className="absolute z-10 text-white  p-[24px]">
                     <h1 className="text-white text-2xl font-bold text-[36px]" >Athletic
                         <br />

@@ -11,11 +11,11 @@ export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <div className="md:px-[135px]">
+        <div className="md:px-5">
             <nav className=" text-white px-6 w-full  py-4 lg:gap-[95px] flex justify-between items-center">
                 {/* Logo */}
                 <img src={logo} alt="Logo" className="w-[80px] h-[100px] md:w-[111px] md:h-[139px]" />
-                <div className="hidden lg:block">
+                <div className="hidden md:block lg:block">
                     <div className="flex flex-col justify-between items-end gap-[55px]">
                         <div className="flex items-center gap-[95px]">
                             {/* Navigation Menu */}
@@ -40,7 +40,7 @@ export default function Navbar() {
                     </div>
                 </div>
                 {/* Mobile Menu Button */}
-                <div className="lg:hidden">
+                <div className="lg:hidden md:hidden">
                     <button className="md:hidden" onClick={() => setMenuOpen(!menuOpen)}>
                         {menuOpen ? <AiOutlineClose size={28} /> : <FiMenu size={28} />}
                     </button>
