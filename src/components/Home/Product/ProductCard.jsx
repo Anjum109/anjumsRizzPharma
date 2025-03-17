@@ -16,7 +16,7 @@ export default function ProductCard() {
             {products.map((product) => (
                 <div
                     key={product.id}
-                    className="w-[270px] bg-[#31418C4D] rounded-[12px]"
+                    className=" bg-[#31418C4D] rounded-[12px]"
                     style={{ fontFamily: "Neue Montreal" }}
                 >
                     {/* Research/Recurring Tag */}
@@ -27,7 +27,7 @@ export default function ProductCard() {
                     </div>
 
                     {/* Image & Product Name */}
-                    <div className="flex justify-between items-center gap-4 px-[40px] mt-[-10px]">
+                    <div className="flex justify-between items-center gap-4 px-[10px] mt-[-10px]">
                         <img
                             src={product.thumbnail}
                             alt={product.title}

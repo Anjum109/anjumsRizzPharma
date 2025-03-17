@@ -7,7 +7,7 @@ export default function Layout({ children }) {
     return (
         <div>
 
-            <div className='body-cover pb-[200px]'>
+            <div className='body-cover lg:pb-[200px]'>
                 <Navbar />
                 {children}
             </div>
