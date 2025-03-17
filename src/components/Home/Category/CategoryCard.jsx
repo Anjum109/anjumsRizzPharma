@@ -54,7 +54,7 @@ export default function CategoryCard() {
                         Perfomance</h1>
                 </div>
                 <div className='flex justify-end lg:mt-[34px]'>
-                    <img src={image5} alt='' className='rounded-tr-[24px] rounded-br-[24px]' />
+                    <img src={image5} alt='' className='rounded-tr-[24px] mt-9 lg:mt-0 md:mt-0 rounded-br-[24px]' />
                 </div>
             </div>
             <div className=' h-[376px] rounded-[24px] category_card_six'>
@@ -63,7 +63,7 @@ export default function CategoryCard() {
                         Hair Loss</h1>
                 </div>
                 <div className='flex justify-end'>
-                    <img src={image6} alt='' className='rounded-tr-[24px] rounded-br-[24px]' />
+                    <img src={image6} alt='' className='rounded-tr-[24px] rounded-br-[24px] mt-9 lg:mt-0 md:mt-0' />
                 </div>
             </div>
         </div>
