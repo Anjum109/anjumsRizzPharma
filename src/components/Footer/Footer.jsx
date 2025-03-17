@@ -3,7 +3,7 @@ import sent from '../../assets/icons/sent.png'
 import email from '../../assets/icons/elements.png'
 import logo from '../../assets/icons/logo.png'
 import certified from '../../assets/icons/certified.png'
-
+import rizzlogo from '../../assets/icons/logo.svg'
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
@@ -70,7 +70,7 @@ export default function Footer() {
                 </div>
             </div>
             <div>
-
+                <img src={rizzlogo} alt='' />
             </div>
         </div >
     )
